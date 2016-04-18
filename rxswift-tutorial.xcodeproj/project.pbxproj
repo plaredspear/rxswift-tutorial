@@ -16,7 +16,6 @@
 		256C79FF1CC22DDB00B521DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256C79FD1CC22DDB00B521DB /* LaunchScreen.storyboard */; };
 		256C7A0A1CC22DDB00B521DB /* rxswift_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C7A091CC22DDB00B521DB /* rxswift_tutorialTests.swift */; };
 		256C7A151CC22DDB00B521DB /* rxswift_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C7A141CC22DDB00B521DB /* rxswift_tutorialUITests.swift */; };
-		256D13351CC3113F00DEADF7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D13341CC3113F00DEADF7 /* Task.swift */; };
 		256D13371CC3117900DEADF7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D13361CC3117900DEADF7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		256C7A101CC22DDB00B521DB /* rxswift-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rxswift-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		256C7A141CC22DDB00B521DB /* rxswift_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rxswift_tutorialUITests.swift; sourceTree = "<group>"; };
 		256C7A161CC22DDB00B521DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		256D13341CC3113F00DEADF7 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		256D13361CC3117900DEADF7 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2580D6161CC32DAB00A8C1EE /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		2580D6171CC32DAB00A8C1EE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				256C79FB1CC22DDB00B521DB /* Assets.xcassets */,
 				256C79FD1CC22DDB00B521DB /* LaunchScreen.storyboard */,
 				256C7A001CC22DDB00B521DB /* Info.plist */,
-				256D13341CC3113F00DEADF7 /* Task.swift */,
 				256D13361CC3117900DEADF7 /* ViewModel.swift */,
 			);
 			path = "rxswift-tutorial";
@@ -290,7 +287,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				256C79F71CC22DDB00B521DB /* ViewController.swift in Sources */,
-				256D13351CC3113F00DEADF7 /* Task.swift in Sources */,
 				256D13371CC3117900DEADF7 /* ViewModel.swift in Sources */,
 				256C79F51CC22DDB00B521DB /* AppDelegate.swift in Sources */,
 			);
