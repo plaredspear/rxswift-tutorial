@@ -12,6 +12,14 @@ import RxSwift
 class ViewModel {
     let disposeBag = DisposeBag()
     
+    var task : Task? {
+        didSet {
+            if task?.title != nil {
+                updateModel()
+            }
+        }
+    }
+    
     var title = PublishSubject<String?>()
     var titleLabel = PublishSubject<String?>()
     
@@ -19,11 +27,15 @@ class ViewModel {
         didSet {
             if let text = searchText {
                 if text.characters.count > 0 {
-                    titleLabel.on(.Next(text))
+                    self.task = Task(title: text)
                 } else {
-                    titleLabel.on(.Next("Title"))
+                    self.task = Task(title: "Title")
                 }
             }
         }
+    }
+    
+    private func updateModel() {
+        titleLabel.on(.Next(task?.title))
     }
 }
