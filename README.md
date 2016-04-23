@@ -7,3 +7,5 @@
 [\[ReactiveX\]\[RxSwift\]들어가기 전](http://minsone.github.io/programming/reactive-swift-preview-0)
 
 [tailec Reactive recipe #1](http://www.tailec.com/blog/Reactive-recipe-1)
+
+[Implementing MVVM in iOS with RxSwift](https://medium.com/cobe-mobile/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.qv77stlsd)
