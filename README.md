@@ -9,3 +9,5 @@
 [tailec Reactive recipe #1](http://www.tailec.com/blog/Reactive-recipe-1)
 
 [Implementing MVVM in iOS with RxSwift](https://medium.com/cobe-mobile/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.qv77stlsd)
+
+[cocoadocs RxSwift: ReactiveX for Swift 2.0 beta](http://cocoadocs.org/docsets/RxSwift/2.0.0-beta.2/)
