@@ -10,6 +10,7 @@
 		256005D21CC331660065A34A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2580D6171CC32DAB00A8C1EE /* RxSwift.framework */; };
 		256005D51CC3318A0065A34A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2580D6161CC32DAB00A8C1EE /* RxCocoa.framework */; };
 		256005D91CC7B4F90065A34A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256005D81CC7B4F90065A34A /* Task.swift */; };
+		2569D7211CCF957200478C59 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569D7201CCF957200478C59 /* TableViewController.swift */; };
 		256C79F51CC22DDB00B521DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C79F41CC22DDB00B521DB /* AppDelegate.swift */; };
 		256C79F71CC22DDB00B521DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C79F61CC22DDB00B521DB /* ViewController.swift */; };
 		256C79FA1CC22DDB00B521DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256C79F81CC22DDB00B521DB /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		256005D81CC7B4F90065A34A /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2569D7201CCF957200478C59 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		256C79F11CC22DDB00B521DB /* rxswift-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		256C79F41CC22DDB00B521DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		256C79F61CC22DDB00B521DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				256C7A001CC22DDB00B521DB /* Info.plist */,
 				256D13361CC3117900DEADF7 /* ViewModel.swift */,
 				256005D81CC7B4F90065A34A /* Task.swift */,
+				2569D7201CCF957200478C59 /* TableViewController.swift */,
 			);
 			path = "rxswift-tutorial";
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				256005D91CC7B4F90065A34A /* Task.swift in Sources */,
 				256C79F71CC22DDB00B521DB /* ViewController.swift in Sources */,
 				256D13371CC3117900DEADF7 /* ViewModel.swift in Sources */,
+				2569D7211CCF957200478C59 /* TableViewController.swift in Sources */,
 				256C79F51CC22DDB00B521DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
