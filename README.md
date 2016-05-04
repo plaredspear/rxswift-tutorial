@@ -13,3 +13,5 @@
 [cocoadocs RxSwift: ReactiveX for Swift 2.0 beta](http://cocoadocs.org/docsets/RxSwift/2.0.0-beta.2/)
 
 [Split laps timer with RxSwift and RxCocoa](http://rx-marin.com/post/rxswift-rxcocoa-sample-split-laps-timer/)
+
+[Make UITableView more Reactive with RxSwift](http://yannickloriot.com/2016/01/make-uitableview-reactive-with-rxswift/)
