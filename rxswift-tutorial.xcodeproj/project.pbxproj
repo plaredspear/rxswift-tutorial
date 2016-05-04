@@ -111,15 +111,14 @@
 		256C79F31CC22DDB00B521DB /* rxswift-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				25BEAB2A1CDABF0400859FEC /* Models */,
+				25BEAB291CDABEFB00859FEC /* ViewModels */,
+				25BEAB281CDABEDF00859FEC /* ViewControllers */,
 				256C79F41CC22DDB00B521DB /* AppDelegate.swift */,
-				256C79F61CC22DDB00B521DB /* ViewController.swift */,
 				256C79F81CC22DDB00B521DB /* Main.storyboard */,
 				256C79FB1CC22DDB00B521DB /* Assets.xcassets */,
 				256C79FD1CC22DDB00B521DB /* LaunchScreen.storyboard */,
 				256C7A001CC22DDB00B521DB /* Info.plist */,
-				256D13361CC3117900DEADF7 /* ViewModel.swift */,
-				256005D81CC7B4F90065A34A /* Task.swift */,
-				2569D7201CCF957200478C59 /* TableViewController.swift */,
 			);
 			path = "rxswift-tutorial";
 			sourceTree = "<group>";
@@ -140,6 +139,31 @@
 				256C7A161CC22DDB00B521DB /* Info.plist */,
 			);
 			path = "rxswift-tutorialUITests";
+			sourceTree = "<group>";
+		};
+		25BEAB281CDABEDF00859FEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				256C79F61CC22DDB00B521DB /* ViewController.swift */,
+				2569D7201CCF957200478C59 /* TableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		25BEAB291CDABEFB00859FEC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				256D13361CC3117900DEADF7 /* ViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		25BEAB2A1CDABF0400859FEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				256005D81CC7B4F90065A34A /* Task.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
