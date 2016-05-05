@@ -10,9 +10,10 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class TableViewController : UIViewController {
+class TableViewController : UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView!
+    @IBOutlet var addText: UIButton!
     
     let disposeBag = DisposeBag()
     
@@ -25,10 +26,33 @@ class TableViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        items.asObservable().bindTo(self.tableView.rx_itemsWithCellIdentifier("Cell")) { (row, item, cell: UITableViewCell) in
-            
-            cell.textLabel?.text = item
-            
+        self.tableView.rx_setDataSource(self)
+        
+        self.items.asObservable().subscribeNext { _ in
+            self.tableView.reloadData()
         }.addDisposableTo(disposeBag)
+        
+        addText.rx_tap.subscribeNext { _ in
+            self.items.value.append("Random \(rand() % 1000)")
+        }.addDisposableTo(disposeBag)
+        
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.value.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let row = self.items.value[indexPath.row]
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell")
+        
+        cell?.textLabel?.text = row
+        
+        return cell!
+    }
+    
+    func tableView(tableView: UITableView,
+                     viewForHeaderInSection section: Int) -> UIView? {
+        return tableView.dequeueReusableCellWithIdentifier("SectionHeader")?.contentView
     }
 }

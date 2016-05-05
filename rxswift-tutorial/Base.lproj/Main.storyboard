@@ -65,9 +65,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableHeaderView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XM3-tw-3Fd">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Add Text"/>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="R9u-Nf-BeW">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="72" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R9u-Nf-BeW" id="ZUE-Z5-FVC">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
@@ -78,6 +83,7 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Table" id="J8S-dd-fSF"/>
                     <connections>
+                        <outlet property="addText" destination="XM3-tw-3Fd" id="fpq-Ei-dyQ"/>
                         <outlet property="tableView" destination="8JW-85-oNU" id="u96-oA-eOJ"/>
                     </connections>
                 </viewController>
